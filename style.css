@@ -1,0 +1,167 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-top: 70px;
+  font-family: 'Poppins', sans-serif;
+  background: #f4f7fc;
+}
+
+/* ---------------- SECTIONS ---------------- */
+.section {
+  padding: 80px 0;
+}
+
+h2 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* ---------------- NAVBAR ---------------- */
+.navbar {
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  color: #fff !important;
+  margin-left: 10px;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffd700 !important;
+}
+
+/* ---------------- HOME ---------------- */
+.home-section {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #fff;
+}
+
+.home-section h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.home-section p {
+  font-size: 1.2rem;
+}
+
+/* ---------------- INTRODUCTION ---------------- */
+#introduction {
+  background: #ffffff;
+}
+
+.photo-placeholder {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.1rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* ---------------- HOBBIES ---------------- */
+#hobbies {
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+}
+
+.hobby-card {
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  transition: all 0.4s ease;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.hobby-card img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.hobby-card h5 {
+  margin-top: 15px;
+  font-weight: 600;
+  color: #333;
+}
+
+.hobby-card:hover {
+  transform: translateY(-12px) scale(1.03);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+  background: linear-gradient(135deg, #84fab0, #8fd3f4);
+}
+
+.hobby-card:hover h5 {
+  color: #fff;
+}
+
+/* ---------------- EDUCATION ---------------- */
+#education {
+  background: linear-gradient(135deg, #ffecd2, #fcb69f);
+}
+
+#education ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#education li {
+  background: #fff;
+  margin-bottom: 10px;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-weight: 500;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+/* ---------------- CONTACT ---------------- */
+#contact {
+  background: linear-gradient(135deg, #141e30, #243b55);
+}
+
+#contact h2 {
+  color: #fff;
+}
+
+.contact-form {
+  max-width: 420px;
+  background: rgba(255,255,255,0.1);
+  padding: 30px;
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.contact-form .form-control {
+  border-radius: 30px;
+  border: none;
+  padding: 12px 20px;
+}
+
+.contact-form .form-control:focus {
+  box-shadow: 0 0 10px #6a11cb;
+}
+
+.contact-form button {
+  border-radius: 30px;
+  font-weight: 600;
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  border: none;
+}
+
+.contact-form button:hover {
+  background: linear-gradient(90deg, #2575fc, #6a11cb);
+}
