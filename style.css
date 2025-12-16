@@ -55,7 +55,7 @@ h2 {
 
 /* ---------------- INTRODUCTION ---------------- */
 #introduction {
-  background: #ffffff;
+  background: #ebd1f0;
 }
 
 .photo-placeholder {
@@ -69,16 +69,16 @@ h2 {
   font-weight: bold;
   color: #fff;
   font-size: 1.1rem;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  box-shadow: 0 10px 30px rgba(242, 215, 128, 0.959);
 }
 
 /* ---------------- HOBBIES ---------------- */
 #hobbies {
-  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+  background: linear-gradient(135deg, #bfe6d5, #ebedee);
 }
 
 .hobby-card {
-  background: rgba(255,255,255,0.85);
+  background: rgba(70, 207, 159, 0.85);
   backdrop-filter: blur(10px);
   border-radius: 20px;
   padding: 20px;
